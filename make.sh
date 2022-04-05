@@ -2,11 +2,11 @@
 
 mkdir -p ${BASH_SOURCE%/*}/build/mods/
 
-MOD="hello_world_mod"
+MOD="example_api"
 (cd ${BASH_SOURCE%/*}/mods/$MOD && cargo build)
 cp ${BASH_SOURCE%/*}/mods/$MOD/target/debug/*.so ${BASH_SOURCE%/*}/build/mods/
 
-MOD=example_mod
+MOD="example_mod"
 (cd ${BASH_SOURCE%/*}/mods/$MOD && cargo build)
 cp ${BASH_SOURCE%/*}/mods/$MOD/target/debug/*.so ${BASH_SOURCE%/*}/build/mods/
 

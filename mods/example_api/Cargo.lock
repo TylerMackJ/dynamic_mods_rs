@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "hello_world_mod"
+name = "example_api"
 version = "0.1.0"
 dependencies = [
  "modloader_api",

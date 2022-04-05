@@ -3,9 +3,17 @@
 version = 3
 
 [[package]]
+name = "example_api"
+version = "0.1.0"
+dependencies = [
+ "modloader_api",
+]
+
+[[package]]
 name = "example_mod"
 version = "0.1.0"
 dependencies = [
+ "example_api",
  "modloader_api",
 ]
 

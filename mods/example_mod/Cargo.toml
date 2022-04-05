@@ -11,3 +11,4 @@ bench = false
 
 [dependencies]
 modloader_api = { path = "../../modloader_api" }
+example_api = { path = "../example_api" }
