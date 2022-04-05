@@ -1,7 +1,4 @@
 pub trait Required {
-    //const NAME: &'static str;
-    //const DESCRIPTION: &'static str;
-
     fn load_mod() -> Mod;
 }
 
