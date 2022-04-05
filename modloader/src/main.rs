@@ -1,5 +1,4 @@
-mod game_mod;
-use game_mod::*;
+use modloader_api::*;
 
 fn main() {
     unsafe {

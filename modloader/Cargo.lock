@@ -23,7 +23,12 @@ name = "modloader"
 version = "0.1.0"
 dependencies = [
  "libloading",
+ "modloader_api",
 ]
+
+[[package]]
+name = "modloader_api"
+version = "0.1.0"
 
 [[package]]
 name = "winapi"

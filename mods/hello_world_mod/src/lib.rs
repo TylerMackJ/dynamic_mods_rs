@@ -1,11 +1,11 @@
-mod game_mod;
+use modloader_api::*;
 
 struct HelloWorldMod {}
 
-impl game_mod::Required for HelloWorldMod {
+impl Required for HelloWorldMod {
     #[no_mangle]
-    fn load_mod() -> game_mod::Mod {
-        game_mod::Mod {
+    fn load_mod() -> Mod {
+        Mod {
             name: "Hello World Mod".to_string(),
             description: "This is the Hello World Mod".to_string(),
             print: Some(random_mod_print),

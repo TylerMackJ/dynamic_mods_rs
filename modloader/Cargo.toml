@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 libloading = "0.7.3"
+modloader_api = { path = "../modloader_api" }
