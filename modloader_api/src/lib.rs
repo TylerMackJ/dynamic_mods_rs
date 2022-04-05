@@ -5,5 +5,5 @@ pub trait Required {
 pub struct Mod {
     pub name: String,
     pub description: String,
-    pub print: Option<unsafe extern "C" fn()>,
+    pub print: Option<extern "C" fn()>,
 }
